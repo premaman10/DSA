@@ -1,2 +1,2 @@
 # DSA
- This repo contains DSA problems.
+ This repo contains Data Structure and Algorithms related problems.
