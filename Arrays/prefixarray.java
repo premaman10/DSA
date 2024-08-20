@@ -1,5 +1,5 @@
 // this is prefix array method to find maximum sum from subarray it has O(n^2) time complexity.
-import java.util.*;
+
 public class prefixarray {
     public static void prefixsum(int num[]){
         int currsum=0;

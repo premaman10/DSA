@@ -4,6 +4,8 @@
 
 package arraysassignment;
 import java.util.Scanner;
+import java .util.*;
+
 public class Q1 {
     public static boolean checker(int arr[]){
         boolean found = false;
@@ -17,12 +19,12 @@ public class Q1 {
         return found;
     }
     public static void main(String[] args) {
-        Scanner sc = new Scanner(System.in);
+        Scanner s = new Scanner(System.in);
         System.out.print("Enetr the size of an array:-");
-        int size = sc.nextInt();
+        int size = s.nextInt();
         int arr[] = new int [size];
         for(int i=0;i<size;i++){
-             arr[i]= sc.nextInt();
+             arr[i]= s.nextInt();
         }
         System.out.println("Status of similar numbers:-" +checker(arr));
     }
